@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="mini.css">
+  </head>
+  <body>
+
+    <div id="before" class="form-mini-container">
+      <form id="my-form" class="form-mini" method="POST">
+        <p/>
+          <div class="form-row">
+            <p>What would you like?</p>
+            <select name="wants">
+              <option></option>
+              <option>free things</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-radio-buttons">
+              <p>Who are you?</p>
+                <div>
+                  <input type="radio" name="who" value="yes">
+                  <span>Amy</span>
+                </div>
+            </div>
+          </div>
+          <div class="form-row form-last-row">
+              <button id="myBtn" type="submit">Claim</button>
+          </div>
+      </form>
+    </div>
+
+    <div id="flier" class="surprise">
+      <!-- <div class="title surprise" style="text-align: center">Free Tour!</div> -->
+      <img class="title surprise" src="AmyJonXMas2019.png"></img>
+      <div class="footer surprise">
+        <img class="title" surprise src="AmyJonXMas2019.png"></img>
+        <div class="about surprise">
+          <p>
+          </p>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>You need to answer correctly to recieve your gift!</p>
+      </div>
+    </div>
+
+  </body>
+  <script src="custom.js" type="text/javascript"></script>
+  <script src="confetti_2.js" type="text/javascript"></script>
+</html>
